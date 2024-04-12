@@ -7,7 +7,7 @@ export interface ProfileProps {
 
 export function Profile({ name, email }: ProfileProps) {
   return (
-    <div className="grid-cols-profile grid items-center gap-3">
+    <div className="grid grid-cols-profile items-center gap-3">
       <img
         src="https://github.com/holices.png"
         className="h-10 w-10 rounded-full"
