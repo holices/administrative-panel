@@ -39,7 +39,7 @@ $ npm install
 ```
 
 ```bash
-# Run the database
+# Run the frontend
 $ npm run dev
 ```
 
