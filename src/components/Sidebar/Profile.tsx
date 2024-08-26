@@ -10,15 +10,17 @@ export function Profile({ name, email }: ProfileProps) {
   return (
     <div className="grid grid-cols-profile items-center gap-3">
       <img
-        src="https://github.com/holices.png"
+        src="https://github.com/github.png"
         className="h-10 w-10 rounded-full"
       />
 
       <div className="flex flex-col truncate">
         <span className=" text-sm/5 font-semibold text-zinc-700 dark:text-zinc-100">
           {name}
-          </span>
-        <p className="truncate text-sm/5 font-normal text-zinc-500 dark:text-zinc-400">{email}</p>
+        </span>
+        <p className="truncate text-sm/5 font-normal text-zinc-500 dark:text-zinc-400">
+          {email}
+        </p>
       </div>
 
       <Button variant="ghost" type="button">
